@@ -1,7 +1,5 @@
-#to find the power pow(x,y)without using standard function
-a=int(input("enter the base value:"))
-b=int(input("enter the power value:"))
-sum=1
-for i in range(1,b+1):
-    sum*=a
-    print("value is",sum)
+#Write a user-defined function to generate even numbers between 1 and 25.
+def even_numbers():
+    return [x for x in range(1, 26) if x % 2 == 0]
+
+print(even_numbers()) 
